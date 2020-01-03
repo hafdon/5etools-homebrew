@@ -77990,8 +77990,8 @@
 					"classes": {
 						"fromClassList": [
 							{
-								"name": "Wizard",
-								"source": "PHB"
+								"name": "Cleric",
+								"source": "zw"
 							}
 						]
 					},
@@ -84650,7 +84650,44 @@
 			"itemProperty": [],
 			"itemType": [],
 			"psionic": [],
-			"reward": [],
+			"reward": [
+				{
+					"name": "Demonic Boon: Baphomet the Theotaxic",
+					"ability": {
+						"entry": "Up to a +4 bonus to Strength, Wisdom, or both"
+					},
+					"signaturespells": {
+						"entry": "{@spell Hunter's mark} (1st level), {@spell beast sense} (2nd level), {@spell slow} (3rd level)"
+					},
+					"entries": [
+						"Baphomet grants the gifts of cunning and physical power. He grants his rank-and-file followers the Unerring Tracker trait, and cult leaders gain the Incite the Hunters trait. All of his devotees also gain the Labyrinthine Recall trait.",
+						{
+							"type": "entries",
+							"name": "Unerring Tracker",
+							"entries": [
+								"As a bonus action, this creature magically creates a psychic link with one creature it can see. For the next hour, as a bonus action this creature learns the current distance and direction to the target if it is on the same plane of existence. The link ends if this creature is {@condition incapacitated} or if it uses this ability on a different target."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Incite the Hunters (Recharges after a Short or Long Rest)",
+							"entries": [
+								"As an action, this creature allows each ally within 30 feet of it that has the Unerring Tracker trait to make one weapon attack as a reaction against the target of that ally's Unerring Tracker."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Labyrinthine Recall",
+							"entries": [
+								"This creature can perfectly recall any path it has traveled."
+							]
+						}
+					],
+					"type": "Demonic Boon",
+					"source": "zw",
+					"page": 30
+				}
+			],
 			"object": [],
 			"trap": [],
 			"hazard": [],
@@ -85028,6 +85065,7 @@
 			"adventure": [],
 			"adventureData": [],
 			"book": [],
+			
 			"bookData": [],
 			"table": [],
 			"tableGroup": [],
