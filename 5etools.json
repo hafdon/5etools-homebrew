@@ -1543,20 +1543,27 @@
 					"wis": 13,
 					"cha": 10,
 					"skill": {
-						"perception": "+5",
-						"athletics": "+6",
-						"investigation": "+4"
+						"perception": "+4",
+						"athletics": "+7",
+						"investigation": "+5",
+						"history": "+5"
 					},
 					"senses": [
 						"darkvision 60 ft."
 					],
-					"passive": 15,
+					"passive": 14,
 					"cr": "2",
 					"trait": [
 						{
 							"name": "Keen Sight",
 							"entries": [
 								"Chad has advantage on Wisdom ({@skill Perception}) checks that rely on sight."
+							]
+						},
+						{
+							"name": "Math Whiz",
+							"entries": [
+								"Chad has advantage on Intelligence ({@skill Investigation}) checks that rely on mathematical or accounting knowledge."
 							]
 						}
 					],
@@ -1648,8 +1655,17 @@
 					},
 					"tokenUrl": "https://5e.tools/img/MM/Griffon.png?v=1.94.4",
 					"save": {
-						"int": "+4"
-					}
+						"int": "+5"
+					},
+					"languages": [
+						"Common",
+						"Bird"
+					],
+					"languageTags": [
+						"C"
+					],
+					"isNamedCreature": true,
+					"isNpc": true
 				},
 				{
 					"name": "Spirit of the Twisted Maze",
