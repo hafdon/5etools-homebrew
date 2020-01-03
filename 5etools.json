@@ -1,0 +1,1700 @@
+{
+	"sync": {
+		"HOMEBREW_META_STORAGE": {
+			"sources": [
+				{
+					"json": "ZACH",
+					"abbreviation": "zw",
+					"full": "ZACH",
+					"url": "",
+					"authors": [],
+					"convertedBy": []
+				}
+			]
+		}
+	},
+	"async": {
+		"filterBoxState_bestiary.html": {
+			"box": {
+				"meta": {
+					"modeCombineFilters": "and",
+					"isSummaryHidden": false,
+					"isBrewDefaultHidden": false
+				},
+				"minisHidden": {},
+				"combineAs": {}
+			},
+			"filters": {
+				"Source": {
+					"meta": {
+						"combineBlue": "or",
+						"combineRed": "or",
+						"isHidden": false
+					},
+					"state": {
+						"AI": 1,
+						"BGDIA": 1,
+						"CoS": 1,
+						"DC": 1,
+						"DIP": 1,
+						"DMG": 1,
+						"ERLW": 1,
+						"GGR": 1,
+						"GoS": 1,
+						"HftT": 1,
+						"HotDQ": 1,
+						"IMR": 0,
+						"KKW": 1,
+						"LLK": 0,
+						"LMoP": 1,
+						"LR": 0,
+						"Mag": 0,
+						"MFF": 1,
+						"MM": 1,
+						"MTF": 1,
+						"OotA": 1,
+						"OoW": 1,
+						"PSA": 0,
+						"PSD": 0,
+						"PSI": 0,
+						"PSK": 0,
+						"PSX": 0,
+						"PSZ": 0,
+						"PHB": 1,
+						"PotA": 1,
+						"RMBRE": 1,
+						"RoT": 1,
+						"SDW": 1,
+						"SKT": 1,
+						"SLW": 1,
+						"Stream": 0,
+						"TTP": 0,
+						"TftYP": 1,
+						"ToA": 1,
+						"VGM": 1,
+						"XGE": 1,
+						"UAArtificerRevisited": 0,
+						"UAClassFeatureVariants": 0,
+						"UAClericDruidWizard": 0,
+						"WDH": 1,
+						"WDMM": 1,
+						"UAWGE": 0
+					},
+					"nestsHidden": {}
+				},
+				"Challenge Rating": {
+					"meta": {
+						"isUseDropdowns": false,
+						"isHidden": false
+					},
+					"state": {
+						"min": 0,
+						"max": 34,
+						"curMin": 0,
+						"curMax": 34
+					}
+				},
+				"Type": {
+					"meta": {
+						"combineBlue": "or",
+						"combineRed": "or",
+						"isHidden": false
+					},
+					"state": {
+						"aberration": 0,
+						"beast": 0,
+						"celestial": 0,
+						"construct": 0,
+						"dragon": 0,
+						"elemental": 0,
+						"fey": 0,
+						"fiend": 0,
+						"giant": 0,
+						"humanoid": 0,
+						"monstrosity": 0,
+						"ooze": 0,
+						"plant": 0,
+						"undead": 0
+					},
+					"nestsHidden": {}
+				},
+				"Tag": {
+					"meta": {
+						"combineBlue": "or",
+						"combineRed": "or",
+						"isHidden": false
+					},
+					"state": {
+						"goblinoid": 0,
+						"dragonborn": 0,
+						"elf": 0,
+						"half-elf": 0,
+						"halfling": 0,
+						"human": 0,
+						"shapechanger": 0,
+						"devil": 0,
+						"demon": 0,
+						"tiefling": 0,
+						"tortle": 0,
+						"kenku": 0,
+						"swarm": 0,
+						"any race": 0,
+						"yugoloth": 0,
+						"dwarf": 0,
+						"titan": 0,
+						"gnoll": 0,
+						"kobold": 0,
+						"sahuagin": 0,
+						"mongrelfolk": 0,
+						"dusk elf": 0,
+						"half-orc": 0,
+						"gnome": 0,
+						"changeling": 0,
+						"kalashtar": 0,
+						"shifter": 0,
+						"warforged": 0,
+						"orc": 0,
+						"angel": 0,
+						"Simic hybrid": 0,
+						"kraul": 0,
+						"merfolk": 0,
+						"bullywug": 0,
+						"triton": 0,
+						"lizardfolk": 0,
+						"locathah": 0,
+						"storm giant": 0,
+						"kuo-toa": 0,
+						"cloud giant": 0,
+						"high elf": 0,
+						"half-dragon": 0,
+						"half-black dragon": 0,
+						"troglodyte": 0,
+						"yuan-ti": 0,
+						"blindheim": 0,
+						"dire corby": 0,
+						"jermlaine": 0,
+						"aarakocra": 0,
+						"gith": 0,
+						"grimlock": 0,
+						"quaggoth": 0,
+						"thri-kreen": 0,
+						"derro": 0,
+						"inevitable": 0,
+						"meazel": 0,
+						"nagpa": 0,
+						"tabaxi": 0,
+						"fire genasi": 0,
+						"shield dwarf": 0,
+						"earth genasi": 0,
+						"water genasi": 0,
+						"strongheart halfling": 0,
+						"goblin": 0,
+						"saurial": 0,
+						"grung": 0,
+						"fire giant": 0,
+						"firenewt": 0,
+						"frost giant": 0,
+						"hill giant": 0,
+						"stone giant": 0,
+						"xvart": 0,
+						"genasi": 0,
+						"lava child": 0
+					},
+					"nestsHidden": {}
+				},
+				"Environment": {
+					"meta": {
+						"combineBlue": "or",
+						"combineRed": "or",
+						"isHidden": false
+					},
+					"state": {
+						"arctic": 0,
+						"coastal": 0,
+						"desert": 0,
+						"forest": 0,
+						"grassland": 0,
+						"hill": 0,
+						"mountain": 0,
+						"swamp": 0,
+						"underdark": 0,
+						"underwater": 0,
+						"urban": 0
+					},
+					"nestsHidden": {}
+				},
+				"Damage": {
+					"meta": {
+						"isHidden": false
+					},
+					"state": {
+						"mode": "and"
+					}
+				},
+				"Vulnerabilities": {
+					"meta": {
+						"combineBlue": "or",
+						"combineRed": "or",
+						"isHidden": false
+					},
+					"state": {
+						"acid": 0,
+						"bludgeoning": 0,
+						"cold": 0,
+						"fire": 0,
+						"force": 0,
+						"lightning": 0,
+						"necrotic": 0,
+						"piercing": 0,
+						"poison": 0,
+						"psychic": 0,
+						"radiant": 0,
+						"slashing": 0,
+						"thunder": 0
+					},
+					"nestsHidden": {}
+				},
+				"Resistance": {
+					"meta": {
+						"combineBlue": "or",
+						"combineRed": "or",
+						"isHidden": false
+					},
+					"state": {
+						"acid": 0,
+						"bludgeoning": 0,
+						"cold": 0,
+						"fire": 0,
+						"force": 0,
+						"lightning": 0,
+						"necrotic": 0,
+						"piercing": 0,
+						"poison": 0,
+						"psychic": 0,
+						"radiant": 0,
+						"slashing": 0,
+						"thunder": 0
+					},
+					"nestsHidden": {}
+				},
+				"Immunity": {
+					"meta": {
+						"combineBlue": "or",
+						"combineRed": "or",
+						"isHidden": false
+					},
+					"state": {
+						"acid": 0,
+						"bludgeoning": 0,
+						"cold": 0,
+						"fire": 0,
+						"force": 0,
+						"lightning": 0,
+						"necrotic": 0,
+						"piercing": 0,
+						"poison": 0,
+						"psychic": 0,
+						"radiant": 0,
+						"slashing": 0,
+						"thunder": 0
+					},
+					"nestsHidden": {}
+				},
+				"Condition Immunity": {
+					"meta": {
+						"combineBlue": "or",
+						"combineRed": "or",
+						"isHidden": false
+					},
+					"state": {
+						"blinded": 0,
+						"charmed": 0,
+						"deafened": 0,
+						"exhaustion": 0,
+						"frightened": 0,
+						"grappled": 0,
+						"incapacitated": 0,
+						"invisible": 0,
+						"paralyzed": 0,
+						"petrified": 0,
+						"poisoned": 0,
+						"prone": 0,
+						"restrained": 0,
+						"stunned": 0,
+						"unconscious": 0,
+						"disease": 0
+					},
+					"nestsHidden": {}
+				},
+				"Traits": {
+					"meta": {
+						"combineBlue": "or",
+						"combineRed": "or",
+						"isHidden": false
+					},
+					"state": {
+						"Aggressive": 0,
+						"Ambusher": 0,
+						"Amorphous": 0,
+						"Amphibious": 0,
+						"Antimagic Susceptibility": 0,
+						"Brute": 0,
+						"Charge": 0,
+						"Damage Absorption": 0,
+						"Death Burst": 0,
+						"Devil's Sight": 0,
+						"False Appearance": 0,
+						"Fey Ancestry": 0,
+						"Flyby": 0,
+						"Hold Breath": 0,
+						"Illumination": 0,
+						"Immutable Form": 0,
+						"Incorporeal Movement": 0,
+						"Keen Senses": 0,
+						"Legendary Resistances": 0,
+						"Light Sensitivity": 0,
+						"Magic Resistance": 0,
+						"Magic Weapons": 0,
+						"Pack Tactics": 0,
+						"Pounce": 0,
+						"Rampage": 0,
+						"Reckless": 0,
+						"Regeneration": 0,
+						"Rejuvenation": 0,
+						"Shapechanger": 0,
+						"Siege Monster": 0,
+						"Sneak Attack": 0,
+						"Spider Climb": 0,
+						"Sunlight Sensitivity": 0,
+						"Turn Immunity": 0,
+						"Turn Resistance": 0,
+						"Undead Fortitude": 0,
+						"Water Breathing": 0,
+						"Web Sense": 0,
+						"Web Walker": 0
+					},
+					"nestsHidden": {}
+				},
+				"Actions & Reactions": {
+					"meta": {
+						"combineBlue": "or",
+						"combineRed": "or",
+						"isHidden": false
+					},
+					"state": {
+						"Frightful Presence": 0,
+						"Multiattack": 0,
+						"Parry": 0,
+						"Swallow": 0,
+						"Teleport": 0,
+						"Tentacles": 0
+					},
+					"nestsHidden": {}
+				},
+				"Miscellaneous": {
+					"meta": {
+						"combineBlue": "or",
+						"combineRed": "or",
+						"isHidden": false
+					},
+					"state": {
+						"Familiar": 0,
+						"AOE": 0,
+						"MW": 0,
+						"RW": 0,
+						"RNG": 0,
+						"RCH": 0,
+						"THW": 0,
+						"Lair Actions": 0,
+						"Legendary": 0,
+						"Adventure NPC": 2,
+						"Spellcaster": 0,
+						"Spellcaster, Strength": 0,
+						"Spellcaster, Dexterity": 0,
+						"Spellcaster, Constitution": 0,
+						"Spellcaster, Intelligence": 0,
+						"Spellcaster, Wisdom": 0,
+						"Spellcaster, Charisma": 0,
+						"Regional Effects": 0,
+						"Reactions": 0,
+						"Swarm": 0,
+						"Has Variants": 0,
+						"Modified Copy": 0,
+						"Has Alternate Token": 0,
+						"SRD": 0
+					},
+					"nestsHidden": {}
+				},
+				"Spellcasting Type": {
+					"meta": {
+						"combineBlue": "or",
+						"combineRed": "or",
+						"isHidden": false
+					},
+					"state": {
+						"F": 0,
+						"I": 0,
+						"P": 0,
+						"S": 0,
+						"CB": 0,
+						"CC": 0,
+						"CD": 0,
+						"CP": 0,
+						"CR": 0,
+						"CS": 0,
+						"CL": 0,
+						"CW": 0
+					},
+					"nestsHidden": {}
+				},
+				"Size": {
+					"meta": {
+						"combineBlue": "or",
+						"combineRed": "or",
+						"isHidden": false
+					},
+					"state": {
+						"T": 0,
+						"S": 0,
+						"M": 0,
+						"L": 0,
+						"H": 0,
+						"G": 0,
+						"V": 0
+					},
+					"nestsHidden": {}
+				},
+				"Speed": {
+					"meta": {
+						"isUseDropdowns": false,
+						"isHidden": false
+					},
+					"state": {
+						"min": 0,
+						"max": 400,
+						"curMin": 0,
+						"curMax": 400
+					}
+				},
+				"Speed Type": {
+					"meta": {
+						"combineBlue": "or",
+						"combineRed": "or",
+						"isHidden": false
+					},
+					"state": {
+						"walk": 0,
+						"burrow": 0,
+						"climb": 0,
+						"fly": 0,
+						"hover": 0,
+						"swim": 0
+					},
+					"nestsHidden": {}
+				},
+				"Alignment": {
+					"meta": {
+						"combineBlue": "or",
+						"combineRed": "or",
+						"isHidden": false
+					},
+					"state": {
+						"L": 0,
+						"NX": 0,
+						"C": 0,
+						"G": 0,
+						"NY": 0,
+						"E": 0,
+						"N": 0,
+						"U": 0,
+						"A": 0
+					},
+					"nestsHidden": {}
+				},
+				"Saves": {
+					"meta": {
+						"combineBlue": "or",
+						"combineRed": "or",
+						"isHidden": false
+					},
+					"state": {
+						"str": 0,
+						"dex": 0,
+						"con": 0,
+						"int": 0,
+						"wis": 0,
+						"cha": 0
+					},
+					"nestsHidden": {}
+				},
+				"Skills": {
+					"meta": {
+						"combineBlue": "or",
+						"combineRed": "or",
+						"isHidden": false
+					},
+					"state": {
+						"acrobatics": 0,
+						"animal handling": 0,
+						"arcana": 0,
+						"athletics": 0,
+						"deception": 0,
+						"history": 0,
+						"insight": 0,
+						"intimidation": 0,
+						"investigation": 0,
+						"medicine": 0,
+						"nature": 0,
+						"perception": 0,
+						"performance": 0,
+						"persuasion": 0,
+						"religion": 0,
+						"sleight of hand": 0,
+						"stealth": 0,
+						"survival": 0
+					},
+					"nestsHidden": {}
+				},
+				"Senses": {
+					"meta": {
+						"combineBlue": "or",
+						"combineRed": "or",
+						"isHidden": false
+					},
+					"state": {
+						"B": 0,
+						"D": 0,
+						"SD": 0,
+						"T": 0,
+						"U": 0
+					},
+					"nestsHidden": {}
+				},
+				"Languages": {
+					"meta": {
+						"combineBlue": "or",
+						"combineRed": "or",
+						"isHidden": false
+					},
+					"state": {
+						"AB": 0,
+						"XX": 0,
+						"X": 0,
+						"AQ": 0,
+						"AU": 0,
+						"CS": 0,
+						"CE": 0,
+						"C": 0,
+						"DS": 0,
+						"DR": 0,
+						"DU": 0,
+						"D": 0,
+						"E": 0,
+						"GI": 0,
+						"GTH": 0,
+						"G": 0,
+						"GO": 0,
+						"H": 0,
+						"IG": 0,
+						"I": 0,
+						"LF": 0,
+						"O": 0,
+						"OTH": 0,
+						"P": 0,
+						"S": 0,
+						"TP": 0,
+						"T": 0,
+						"TC": 0,
+						"U": 0
+					},
+					"nestsHidden": {}
+				},
+				"Damage Inflicted": {
+					"meta": {
+						"combineBlue": "or",
+						"combineRed": "or",
+						"isHidden": false
+					},
+					"state": {
+						"A": 0,
+						"B": 0,
+						"C": 0,
+						"F": 0,
+						"O": 0,
+						"L": 0,
+						"N": 0,
+						"P": 0,
+						"I": 0,
+						"Y": 0,
+						"R": 0,
+						"S": 0,
+						"T": 0
+					},
+					"nestsHidden": {}
+				},
+				"Armor Class": {
+					"meta": {
+						"isUseDropdowns": false,
+						"isHidden": false
+					},
+					"state": {
+						"min": 0,
+						"max": 25,
+						"curMin": 0,
+						"curMax": 25
+					}
+				},
+				"Average Hit Points": {
+					"meta": {
+						"isUseDropdowns": false,
+						"isHidden": false
+					},
+					"state": {
+						"min": 0,
+						"max": 676,
+						"curMin": 0,
+						"curMax": 676
+					}
+				},
+				"Ability Scores": {
+					"meta": {
+						"isHidden": false
+					},
+					"state": {
+						"mode": "and"
+					}
+				},
+				"Strength": {
+					"meta": {
+						"isUseDropdowns": false,
+						"isHidden": false
+					},
+					"state": {
+						"min": 1,
+						"max": 30,
+						"curMin": 1,
+						"curMax": 30
+					}
+				},
+				"Dexterity": {
+					"meta": {
+						"isUseDropdowns": false,
+						"isHidden": false
+					},
+					"state": {
+						"min": 1,
+						"max": 30,
+						"curMin": 1,
+						"curMax": 30
+					}
+				},
+				"Constitution": {
+					"meta": {
+						"isUseDropdowns": false,
+						"isHidden": false
+					},
+					"state": {
+						"min": 1,
+						"max": 30,
+						"curMin": 1,
+						"curMax": 30
+					}
+				},
+				"Intelligence": {
+					"meta": {
+						"isUseDropdowns": false,
+						"isHidden": false
+					},
+					"state": {
+						"min": 1,
+						"max": 30,
+						"curMin": 1,
+						"curMax": 30
+					}
+				},
+				"Wisdom": {
+					"meta": {
+						"isUseDropdowns": false,
+						"isHidden": false
+					},
+					"state": {
+						"min": 1,
+						"max": 30,
+						"curMin": 1,
+						"curMax": 30
+					}
+				},
+				"Charisma": {
+					"meta": {
+						"isUseDropdowns": false,
+						"isHidden": false
+					},
+					"state": {
+						"min": 1,
+						"max": 30,
+						"curMin": 1,
+						"curMax": 30
+					}
+				}
+			}
+		},
+		"ENCOUNTER_SAVED_STORAGE": {
+			"savedEncounters": {},
+			"activeKey": null
+		},
+		"SUBLIST_RESIZE_bestiary.html": "130px",
+		"filterBoxState_spells.html": {
+			"box": {
+				"meta": {
+					"modeCombineFilters": "and",
+					"isSummaryHidden": false,
+					"isBrewDefaultHidden": false
+				},
+				"minisHidden": {},
+				"combineAs": {}
+			},
+			"filters": {
+				"Source": {
+					"meta": {
+						"combineBlue": "or",
+						"combineRed": "or",
+						"isHidden": false
+					},
+					"state": {
+						"AI": 1,
+						"GGR": 1,
+						"LLK": 0,
+						"PHB": 1,
+						"SCAG": 1,
+						"Stream": 0,
+						"UAArtificerRevisited": 0,
+						"UAFighterRogueWizard": 0,
+						"UAModernMagic": 0,
+						"UASorcererAndWarlock": 0,
+						"UAStarterSpells": 0,
+						"UAThatOldBlackMagic": 0,
+						"XGE": 1,
+						"EEPC": 1,
+						"UAWGE": 0,
+						"ERLW": 1,
+						"VGM": 1
+					},
+					"nestsHidden": {}
+				},
+				"Level": {
+					"meta": {
+						"combineBlue": "or",
+						"combineRed": "or",
+						"isHidden": false
+					},
+					"state": {
+						"0": 0,
+						"1": 0,
+						"2": 0,
+						"3": 0,
+						"4": 0,
+						"5": 0,
+						"6": 0,
+						"7": 0,
+						"8": 0,
+						"9": 0
+					},
+					"nestsHidden": {}
+				},
+				"Classes": {
+					"meta": {
+						"isHidden": false
+					},
+					"state": {
+						"mode": "or"
+					}
+				},
+				"Class": {
+					"meta": {
+						"combineBlue": "or",
+						"combineRed": "or",
+						"isHidden": false
+					},
+					"state": {
+						"Sorcerer": 0,
+						"Wizard": 0,
+						"Artificer (UAAR)": 0,
+						"Artificer": 0,
+						"Cleric": 0,
+						"Paladin": 0,
+						"Artificer (UAA)": 0,
+						"Ranger": 0,
+						"Bard": 0,
+						"Druid": 0,
+						"Warlock": 0
+					},
+					"nestsHidden": {}
+				},
+				"Subclass": {
+					"meta": {
+						"combineBlue": "or",
+						"combineRed": "or",
+						"isHidden": false
+					},
+					"state": {
+						"Fighter: Eldritch Knight": 0,
+						"Rogue: Arcane Trickster": 0,
+						"Cleric: Arcana": 0,
+						"Cleric: Protection (UACDD)": 0,
+						"Cleric: Solidarity (PSA)": 0,
+						"Sorcerer: Divine Soul": 0,
+						"Sorcerer: Favored Soul v2 (UAS)": 0,
+						"Sorcerer: Favored Soul v3 (UARSC)": 0,
+						"Ranger: Horizon Walker (UARAR)": 0,
+						"Ranger (Revised): Horizon Walker (UARAR)": 0,
+						"Artificer: Alchemist": 0,
+						"Cleric: Nature": 0,
+						"Cleric: Death": 0,
+						"Paladin: Oathbreaker": 0,
+						"Druid: Spores (UATSC)": 0,
+						"Druid: Spores": 0,
+						"Cleric: Forge (UACDD)": 0,
+						"Cleric: Forge": 0,
+						"Cleric: Grave (UACDD)": 0,
+						"Cleric: Grave": 0,
+						"Cleric: Knowledge": 0,
+						"Cleric: Knowledge (PSA)": 0,
+						"Warlock: Seeker (UATF)": 0,
+						"Paladin: Conquest (UAP)": 0,
+						"Paladin: Conquest v2 (UARCO)": 0,
+						"Paladin: Conquest": 0,
+						"Sorcerer: Giant Soul (UAGSS)": 0,
+						"Cleric: Darkness (Twitter)": 0,
+						"Sorcerer: Aberrant Mind (UASAW)": 0,
+						"Warlock: Kraken (Stream)": 0,
+						"Barbarian: Ancestral Guardian": 0,
+						"Warlock: Undying": 0,
+						"Cleric: Twilight (UACDW)": 0,
+						"Druid: Wildfire (UACDW)": 0,
+						"Artificer (Revisited): Battle Smith (UAAR)": 0,
+						"Artificer: Battle Smith": 0,
+						"Paladin: Crown": 0,
+						"Paladin: Vengeance": 0,
+						"Cleric: Ambition (PSA)": 0,
+						"Wizard: Onomancy (UACDW)": 0,
+						"Warlock: Hexblade": 0,
+						"Ranger: Horizon Walker": 0,
+						"Ranger (Revised): Horizon Walker": 0,
+						"Ranger: Monster Slayer (UAATOSC)": 0,
+						"Ranger: Monster Slayer": 0,
+						"Ranger (Revised): Monster Slayer (UAATOSC)": 0,
+						"Ranger (Revised): Monster Slayer": 0,
+						"Druid: Land": 0,
+						"Cleric: Life": 0,
+						"Paladin: Devotion": 0,
+						"Cleric: Beauty (Twitter)": 0,
+						"Barbarian: Totem Warrior": 0,
+						"Artificer (Revisited): Alchemist (UAAR)": 0,
+						"Sorcerer: Stone (UAS)": 0,
+						"Warlock: Fiend": 0,
+						"Cleric: Trickery": 0,
+						"Warlock: Archfey": 0,
+						"Warlock: Hexblade (UAWAW)": 0,
+						"Cleric: Light": 0,
+						"Warlock: Celestial (UARCO)": 0,
+						"Warlock: Undying Light (UALDU)": 0,
+						"Cleric: Tempest": 0,
+						"Paladin: Redemption": 0,
+						"Paladin: Treachery (UAP)": 0,
+						"Warlock: Great Old One": 0,
+						"Warlock: Lolth (Twitter)": 0,
+						"Cleric: Destruction (Twitter)": 0,
+						"Cleric: Order (UAOD)": 0,
+						"Cleric: Order": 0,
+						"Warlock: Raven Queen (UAWAW)": 0,
+						"Paladin: Ancients": 0,
+						"Warlock: Lurker in the Deep (UASAW)": 0,
+						"Cleric: City (UAMM)": 0,
+						"Artificer (Revisited): Archivist (UAAR)": 0,
+						"Artificer (Revisited): Artillerist (UAAR)": 0,
+						"Artificer: Artillerist": 0,
+						"Ranger: Primeval Guardian (UARAR)": 0,
+						"Ranger (Revised): Primeval Guardian (UARAR)": 0,
+						"Paladin: Redemption (UAATOSC)": 0,
+						"Cleric: War": 0,
+						"Warlock: Celestial": 0,
+						"Cleric: Strength (PSA)": 0,
+						"Cleric: Zeal (PSA)": 0,
+						"Ranger: Deep Stalker (UALDU)": 0,
+						"Ranger: Gloom Stalker": 0,
+						"Ranger (Revised): Deep Stalker Conclave (UATRR)": 0,
+						"Ranger (Revised): Gloom Stalker": 0,
+						"Wizard: Psionics (UAFRW)": 0,
+						"Fighter: Arcane Archer": 0,
+						"Ranger: Swarmkeeper (UAFRR)": 0,
+						"Ranger (Revised): Swarmkeeper (UAFRR)": 0,
+						"Fighter: Psychic Warrior (UAFRW)": 0
+					},
+					"nestsHidden": {
+						"Artificer": true,
+						"Artificer (Revisited)": true,
+						"Barbarian": true,
+						"Cleric": true,
+						"Druid": true,
+						"Fighter": true,
+						"Paladin": true,
+						"Ranger": true,
+						"Ranger (Revised)": true,
+						"Rogue": true,
+						"Sorcerer": true,
+						"Warlock": true,
+						"Wizard": true
+					}
+				},
+				"Variant Class": {
+					"meta": {
+						"combineBlue": "or",
+						"combineRed": "or",
+						"isHidden": false
+					},
+					"state": {
+						"Druid": 0,
+						"Bard": 0,
+						"Ranger": 0,
+						"Warlock": 0,
+						"Wizard": 0,
+						"Cleric": 0,
+						"Sorcerer": 0,
+						"Paladin": 0
+					},
+					"nestsHidden": {}
+				},
+				"Race": {
+					"meta": {
+						"combineBlue": "or",
+						"combineRed": "or",
+						"isHidden": false
+					},
+					"state": {
+						"Elf": 0,
+						"Halfling": 0,
+						"Dwarf": 0,
+						"Tiefling": 0,
+						"Yuan-ti Pureblood": 0,
+						"Human": 0,
+						"Gnome": 0,
+						"Half-Elf": 0,
+						"Genasi": 0,
+						"Elf (Zendikar)": 0,
+						"Half-Orc": 0,
+						"Aasimar": 0,
+						"Firbolg": 0,
+						"Gith": 0,
+						"Triton": 0,
+						"Siren": 0
+					},
+					"nestsHidden": {}
+				},
+				"Background": {
+					"meta": {
+						"combineBlue": "or",
+						"combineRed": "or",
+						"isHidden": false
+					},
+					"state": {
+						"Simic Scientist": 0,
+						"Boros Legionnaire": 0,
+						"Selesnya Initiate": 0,
+						"Golgari Agent": 0,
+						"Izzet Engineer": 0,
+						"Dimir Operative": 0,
+						"Azorius Functionary": 0,
+						"Gruul Anarch": 0,
+						"Orzhov Representative": 0,
+						"Rakdos Cultist": 0
+					},
+					"nestsHidden": {}
+				},
+				"Components & Miscellaneous": {
+					"meta": {
+						"combineBlue": "or",
+						"combineRed": "or",
+						"isHidden": false
+					},
+					"state": {
+						"Concentration": 0,
+						"Verbal": 0,
+						"Somatic": 0,
+						"Material": 0,
+						"Royalty": 0,
+						"Material with Cost": 0,
+						"Material is Consumed": 0,
+						"Healing": 0,
+						"Requires Sight": 0,
+						"Permanent Effects": 0,
+						"Scaling Effects": 0,
+						"Summons Creature": 0,
+						"Ritual": 0,
+						"Technomagic": 0,
+						"SRD": 0
+					},
+					"nestsHidden": {}
+				},
+				"School": {
+					"meta": {
+						"combineBlue": "or",
+						"combineRed": "or",
+						"isHidden": false
+					},
+					"state": {
+						"A": 0,
+						"V": 0,
+						"E": 0,
+						"I": 0,
+						"D": 0,
+						"N": 0,
+						"T": 0,
+						"C": 0,
+						"P": 0
+					},
+					"nestsHidden": {}
+				},
+				"Subschool": {
+					"meta": {
+						"combineBlue": "or",
+						"combineRed": "or",
+						"isHidden": false
+					},
+					"state": {},
+					"nestsHidden": {}
+				},
+				"Damage Type": {
+					"meta": {
+						"combineBlue": "or",
+						"combineRed": "or",
+						"isHidden": false
+					},
+					"state": {
+						"acid": 0,
+						"bludgeoning": 0,
+						"cold": 0,
+						"fire": 0,
+						"force": 0,
+						"lightning": 0,
+						"necrotic": 0,
+						"piercing": 0,
+						"poison": 0,
+						"psychic": 0,
+						"radiant": 0,
+						"slashing": 0,
+						"thunder": 0
+					},
+					"nestsHidden": {}
+				},
+				"Conditions Inflicted": {
+					"meta": {
+						"combineBlue": "or",
+						"combineRed": "or",
+						"isHidden": false
+					},
+					"state": {
+						"blinded": 0,
+						"charmed": 0,
+						"deafened": 0,
+						"exhaustion": 0,
+						"frightened": 0,
+						"grappled": 0,
+						"incapacitated": 0,
+						"invisible": 0,
+						"paralyzed": 0,
+						"petrified": 0,
+						"poisoned": 0,
+						"prone": 0,
+						"restrained": 0,
+						"stunned": 0,
+						"unconscious": 0
+					},
+					"nestsHidden": {}
+				},
+				"Spell Attack": {
+					"meta": {
+						"combineBlue": "or",
+						"combineRed": "or",
+						"isHidden": false
+					},
+					"state": {
+						"M": 0,
+						"R": 0,
+						"O": 0
+					},
+					"nestsHidden": {}
+				},
+				"Saving Throw": {
+					"meta": {
+						"combineBlue": "or",
+						"combineRed": "or",
+						"isHidden": false
+					},
+					"state": {
+						"strength": 0,
+						"dexterity": 0,
+						"constitution": 0,
+						"intelligence": 0,
+						"wisdom": 0,
+						"charisma": 0
+					},
+					"nestsHidden": {}
+				},
+				"Opposed Ability Check": {
+					"meta": {
+						"combineBlue": "or",
+						"combineRed": "or",
+						"isHidden": false
+					},
+					"state": {
+						"strength": 0,
+						"dexterity": 0,
+						"constitution": 0,
+						"intelligence": 0,
+						"wisdom": 0,
+						"charisma": 0
+					},
+					"nestsHidden": {}
+				},
+				"Cast Time": {
+					"meta": {
+						"combineBlue": "or",
+						"combineRed": "or",
+						"isHidden": false
+					},
+					"state": {
+						"action": 0,
+						"bonus": 0,
+						"reaction": 0,
+						"round": 0,
+						"minute": 0,
+						"hour": 0
+					},
+					"nestsHidden": {}
+				},
+				"Duration": {
+					"meta": {
+						"isUseDropdowns": false,
+						"isHidden": false
+					},
+					"state": {
+						"min": 0,
+						"max": 8,
+						"curMin": 0,
+						"curMax": 8
+					}
+				},
+				"Range": {
+					"meta": {
+						"combineBlue": "or",
+						"combineRed": "or",
+						"isHidden": false
+					},
+					"state": {
+						"Self": 0,
+						"Touch": 0,
+						"Point": 0,
+						"Self (Area)": 0,
+						"Special": 0
+					},
+					"nestsHidden": {}
+				},
+				"Area Style": {
+					"meta": {
+						"combineBlue": "or",
+						"combineRed": "or",
+						"isHidden": false
+					},
+					"state": {
+						"ST": 0,
+						"MT": 0,
+						"R": 0,
+						"N": 0,
+						"C": 0,
+						"Y": 0,
+						"H": 0,
+						"L": 0,
+						"S": 0,
+						"Q": 0,
+						"W": 0
+					},
+					"nestsHidden": {}
+				}
+			}
+		},
+		"SUBLIST_RESIZE_spells.html": "130px",
+		"filterBoxState_feats.html": {
+			"box": {
+				"meta": {
+					"modeCombineFilters": "and",
+					"isSummaryHidden": false,
+					"isBrewDefaultHidden": false
+				},
+				"minisHidden": {},
+				"combineAs": {}
+			},
+			"filters": {
+				"Source": {
+					"meta": {
+						"combineBlue": "or",
+						"combineRed": "or",
+						"isHidden": false
+					},
+					"state": {
+						"UAFeatsForRaces": 0,
+						"UAFeatsForSkills": 0,
+						"UAFeats": 0,
+						"PHB": 1,
+						"UAEberron": 0,
+						"MTF": 1,
+						"PSK": 0,
+						"XGE": 1,
+						"PSX": 0,
+						"ERLW": 1,
+						"UAFighterRogueWizard": 0
+					},
+					"nestsHidden": {}
+				},
+				"Ability Bonus": {
+					"meta": {
+						"combineBlue": "or",
+						"combineRed": "or",
+						"isHidden": false
+					},
+					"state": {
+						"str": 0,
+						"dex": 0,
+						"con": 0,
+						"int": 0,
+						"wis": 0,
+						"cha": 0
+					},
+					"nestsHidden": {}
+				},
+				"Prerequisite": {
+					"meta": {
+						"isHidden": false
+					},
+					"state": {
+						"mode": "or"
+					}
+				},
+				"Other": {
+					"meta": {
+						"combineBlue": "or",
+						"combineRed": "or",
+						"isHidden": false
+					},
+					"state": {
+						"Ability": 0,
+						"Race": 0,
+						"Proficiency": 0,
+						"Special": 0,
+						"Spellcasting": 0
+					},
+					"nestsHidden": {}
+				},
+				"Level": {
+					"meta": {
+						"combineBlue": "or",
+						"combineRed": "or",
+						"isHidden": false
+					},
+					"state": {},
+					"nestsHidden": {}
+				},
+				"Miscellaneous": {
+					"meta": {
+						"combineBlue": "or",
+						"combineRed": "or",
+						"isHidden": false
+					},
+					"state": {
+						"SRD": 0
+					},
+					"nestsHidden": {}
+				}
+			}
+		},
+		"brewbuilderSettings_makebrew.html": {
+			"activeBuilder": "creatureBuilder",
+			"activeSource": "ZACH"
+		},
+		"brewbuilderState_makebrew.html": {
+			"builders": {
+				"creatureBuilder": {
+					"s": {
+						"name": "Spirit of the Twisted Maze",
+						"size": "M",
+						"type": "fiend",
+						"source": "ZACH",
+						"alignment": [
+							"C",
+							"N"
+						],
+						"ac": [
+							13
+						],
+						"hp": {
+							"formula": "4d8 + 10",
+							"average": 28
+						},
+						"speed": {
+							"walk": 30
+						},
+						"str": 12,
+						"dex": 17,
+						"con": 12,
+						"int": 10,
+						"wis": 7,
+						"cha": 1,
+						"save": {
+							"con": "+3"
+						},
+						"skill": {
+							"stealth": "+7",
+							"athletics": "+3",
+							"perception": "+0"
+						},
+						"immune": [],
+						"conditionImmune": [
+							"blinded"
+						],
+						"senses": [
+							"darkvision 120 ft."
+						],
+						"passive": 10,
+						"languages": [
+							"Common"
+						],
+						"cr": "1",
+						"trait": [
+							{
+								"name": "Trackless",
+								"entries": [
+									"The spirit leaves no tracks to indicate where it has been or where it's headed."
+								]
+							}
+						],
+						"action": [
+							{
+								"name": "Claws",
+								"entries": [
+									"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}9 ({@damage 2d4 + 4}) slashing damage. If the spirit has advantage on the attack roll, the target also takes 10 ({@damage 3d6}) necrotic damage."
+								]
+							}
+						],
+						"environment": [
+							"coastal",
+							"forest",
+							"swamp",
+							"underdark",
+							"urban"
+						],
+						"soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/689/skulk.mp3",
+						"languageTags": [
+							"C"
+						],
+						"senseTags": [
+							"SD"
+						],
+						"damageTags": [
+							"S",
+							"N"
+						],
+						"miscTags": [
+							"MW"
+						],
+						"fluff": {
+							"name": "Skulk",
+							"source": "MTF",
+							"images": [
+								{
+									"type": "image",
+									"href": {
+										"type": "internal",
+										"path": "bestiary/MTF/Skulk.jpg"
+									}
+								}
+							],
+							"entries": [
+								{
+									"type": "quote",
+									"entries": [
+										"Some children have imaginary friends that their parents can't see. Sometimes those invisible friends aren't imaginary."
+									],
+									"by": "Mordenkainen"
+								},
+								{
+									"type": "entries",
+									"name": "Skulk",
+									"entries": [
+										"Skulks are the soulless shells of travelers who became lost in the Shadowfell, wandering its gray wastes until they lost all sense of self. They are so devoid of identity that they have become permanently invisible. Only children can see a skulk without the help of a mirror or a special candle. On the rare occasions when a skulk is visible, it appears as a drab, featureless, hairless humanoid."
+									]
+								},
+								{
+									"name": "Summoned Servants",
+									"type": "entries",
+									"entries": [
+										"A skulk can be summoned from the Shadowfell by performing a ritual. If the creature is given a portion of the summoner's identity, the skulk is bound to obey the summoner's commands for 30 days. If a skulk is visible, an astute observer might deduce who summoned it, because a skulk assumes a vague likeness of its master.",
+										"Cruel and chaotic, skulks carry out their orders in the most violent manner possible. A summoned skulk can't return to the Shadowfell until it dies, so it has every motivation to throw itself into creating bloodshed and mayhem."
+									]
+								},
+								{
+									"name": "Hollow Lives",
+									"type": "entries",
+									"entries": [
+										"After killing a person in the material world, a skulk sometimes takes up a silent imitation of that person's life. In extreme cases, skulks have invaded villages, killed all the occupants, and turned the places into seeming ghost towns, where flavorless food is prepared daily, colorless clothes are hung up to dry, and livestock is shifted from pen to pen until it starves."
+									]
+								}
+							]
+						},
+						"tokenUrl": "https://5e.tools/img/MTF/Skulk.png?v=1.94.4",
+						"_maxDprStr": 12,
+						"_isScaledCr": 1,
+						"_originalCr": "1/2",
+						"spellcasting": [
+							{
+								"name": "Spellcasting",
+								"spells": {
+									"0": {
+										"spells": [
+											"{@spell infestation|XGE}",
+											"{@spell mind sliver|UASorcererAndWarlock}",
+											"{@spell thorn whip|PHB}"
+										]
+									}
+								},
+								"type": "spellcasting"
+							}
+						],
+						"_pTypes": {
+							"type": "fiend",
+							"tags": [],
+							"asText": "fiend"
+						},
+						"_pCr": "1"
+					},
+					"m": {
+						"profSave": {
+							"con": 1
+						},
+						"profSkill": {
+							"stealth": 2,
+							"athletics": 1,
+							"perception": 1
+						},
+						"autoCalc": {
+							"proficiency": true,
+							"hpAverageSimple": true,
+							"hpAverageComplex": true,
+							"hpModifier": false,
+							"passivePerception": true
+						},
+						"activeTab__input": 3,
+						"activeTab__output": 3,
+						"ixBrew": 0
+					},
+					"_m": {
+						"isEntrySaved": true
+					}
+				},
+				"spellBuilder": {
+					"s": {
+						"name": "New Spell",
+						"level": 1,
+						"school": "A",
+						"time": [
+							{
+								"number": 1,
+								"unit": "action"
+							}
+						],
+						"range": {
+							"type": "point",
+							"distance": {
+								"type": "self"
+							}
+						},
+						"duration": [
+							{
+								"type": "instant"
+							}
+						],
+						"classes": {
+							"fromClassList": [
+								{
+									"name": "Wizard",
+									"source": "PHB"
+								}
+							]
+						},
+						"entries": [],
+						"source": ""
+					},
+					"m": {},
+					"_m": {
+						"isEntrySaved": true
+					}
+				}
+			}
+		},
+		"HOMEBREW_STORAGE": {
+			"monster": [
+				{
+					"name": "Spirit of the Twisted Maze",
+					"size": "M",
+					"type": "fiend",
+					"source": "ZACH",
+					"alignment": [
+						"C",
+						"N"
+					],
+					"ac": [
+						13
+					],
+					"hp": {
+						"formula": "4d8 + 10",
+						"average": 28
+					},
+					"speed": {
+						"walk": 30
+					},
+					"str": 12,
+					"dex": 17,
+					"con": 12,
+					"int": 10,
+					"wis": 7,
+					"cha": 1,
+					"save": {
+						"con": "+3"
+					},
+					"skill": {
+						"stealth": "+7",
+						"athletics": "+3",
+						"perception": "+0"
+					},
+					"immune": [],
+					"conditionImmune": [
+						"blinded"
+					],
+					"senses": [
+						"darkvision 120 ft."
+					],
+					"passive": 10,
+					"languages": [
+						"Common"
+					],
+					"cr": "1",
+					"trait": [
+						{
+							"name": "Trackless",
+							"entries": [
+								"The spirit leaves no tracks to indicate where it has been or where it's headed."
+							]
+						}
+					],
+					"action": [
+						{
+							"name": "Claws",
+							"entries": [
+								"{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}9 ({@damage 2d4 + 4}) slashing damage. If the spirit has advantage on the attack roll, the target also takes 10 ({@damage 3d6}) necrotic damage."
+							]
+						}
+					],
+					"environment": [
+						"coastal",
+						"forest",
+						"swamp",
+						"underdark",
+						"urban"
+					],
+					"soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/689/skulk.mp3",
+					"languageTags": [
+						"C"
+					],
+					"senseTags": [
+						"SD"
+					],
+					"damageTags": [
+						"S",
+						"N"
+					],
+					"miscTags": [
+						"MW"
+					],
+					"fluff": {
+						"name": "Skulk",
+						"source": "MTF",
+						"images": [
+							{
+								"type": "image",
+								"href": {
+									"type": "internal",
+									"path": "bestiary/MTF/Skulk.jpg"
+								}
+							}
+						],
+						"entries": [
+							{
+								"type": "quote",
+								"entries": [
+									"Some children have imaginary friends that their parents can't see. Sometimes those invisible friends aren't imaginary."
+								],
+								"by": "Mordenkainen"
+							},
+							{
+								"type": "entries",
+								"name": "Skulk",
+								"entries": [
+									"Skulks are the soulless shells of travelers who became lost in the Shadowfell, wandering its gray wastes until they lost all sense of self. They are so devoid of identity that they have become permanently invisible. Only children can see a skulk without the help of a mirror or a special candle. On the rare occasions when a skulk is visible, it appears as a drab, featureless, hairless humanoid."
+								]
+							},
+							{
+								"name": "Summoned Servants",
+								"type": "entries",
+								"entries": [
+									"A skulk can be summoned from the Shadowfell by performing a ritual. If the creature is given a portion of the summoner's identity, the skulk is bound to obey the summoner's commands for 30 days. If a skulk is visible, an astute observer might deduce who summoned it, because a skulk assumes a vague likeness of its master.",
+									"Cruel and chaotic, skulks carry out their orders in the most violent manner possible. A summoned skulk can't return to the Shadowfell until it dies, so it has every motivation to throw itself into creating bloodshed and mayhem."
+								]
+							},
+							{
+								"name": "Hollow Lives",
+								"type": "entries",
+								"entries": [
+									"After killing a person in the material world, a skulk sometimes takes up a silent imitation of that person's life. In extreme cases, skulks have invaded villages, killed all the occupants, and turned the places into seeming ghost towns, where flavorless food is prepared daily, colorless clothes are hung up to dry, and livestock is shifted from pen to pen until it starves."
+								]
+							}
+						]
+					},
+					"tokenUrl": "https://5e.tools/img/MTF/Skulk.png?v=1.94.4",
+					"_maxDprStr": 12,
+					"_isScaledCr": 1,
+					"_originalCr": "1/2",
+					"spellcasting": [
+						{
+							"name": "Spellcasting",
+							"spells": {
+								"0": {
+									"spells": [
+										"{@spell infestation|XGE}",
+										"{@spell mind sliver|UASorcererAndWarlock}",
+										"{@spell thorn whip|PHB}"
+									]
+								}
+							},
+							"type": "spellcasting"
+						}
+					],
+					"_pTypes": {
+						"type": "fiend",
+						"tags": [],
+						"asText": "fiend"
+					},
+					"_pCr": "1",
+					"uniqueId": "9e63c3488fef0235378378845838394b"
+				}
+			]
+		}
+	}
+}
