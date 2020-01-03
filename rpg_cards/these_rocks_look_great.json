@@ -1,0 +1,31 @@
+[
+	{
+		"count": 1,
+		"color": "#4a6898",
+		"title": "These Rocks Look Great",
+		"icon": "magic-swirl",
+		"icon_back": "magic-swirl",
+		"contents": [
+			"subtitle | 2nd-level enchantment (ritual)",
+			"rule",
+			"property | Casting Time | 1 action",
+			"property | Range | Touch",
+			"property | Components | V, S, M (a pebble and a dwarven beard hair)",
+			"property | Duration | Up to 10 minutes",
+			"rule",
+			"text | This spell wards a willing dwarf you touch and creates a mystic connection between you. Choose one of the following wards; you and the target gain that ward until the spell ends.",
+			"text | You and the target gain a +2 bonus to AC and gain <span class=\"roller render-roller\"  >2d6</span> temporary hit points each (roll once for both), which are lost when the spell ends.",
+			"text | You and the target are immune to being charmed and frightened and cannot be possessed.",
+			"text | You and the target add +5 to any skill or ability check in which stone is concerned.",
+			"text | The spell ends if you or the target drop to 0 hit points. It also ends if the spell is cast again on either of the connected creatures. You can dismiss the spell as a bonus action.",
+			"section | At higher levels",
+			"text | When you cast this spell using a spell slot of 3rd level or higher, you can target one additional dwarf for each slot level above 2nd."
+		],
+		"tags": [
+			"spell",
+			"zw",
+			"2nd level",
+			"Enchantment"
+		]
+	}
+]

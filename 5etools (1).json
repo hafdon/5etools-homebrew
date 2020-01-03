@@ -1367,7 +1367,7 @@
 			}
 		},
 		"brewbuilderSettings_makebrew.html": {
-			"activeBuilder": "creatureBuilder",
+			"activeBuilder": "spellBuilder",
 			"activeSource": "ZACH"
 		},
 		"brewbuilderState_makebrew.html": {
@@ -1501,7 +1501,7 @@
 						},
 						"activeTab__input": 0,
 						"activeTab__output": 0,
-						"ixBrew": 1
+						"ixBrew": 2
 					},
 					"_m": {
 						"isEntrySaved": true
@@ -1540,7 +1540,11 @@
 						"entries": [],
 						"source": ""
 					},
-					"m": {},
+					"m": {
+						"activeTab__input": 0,
+						"activeTab__output": 1,
+						"ixBrew": 1
+					},
 					"_m": {
 						"isEntrySaved": true
 					}
@@ -84481,7 +84485,38 @@
 							}
 						]
 					},
-					"uniqueId": "f2d3303429c4a9cbc06b65997df30155"
+					"uniqueId": "f2d3303429c4a9cbc06b65997df30155",
+					"rarity": "Very Rare",
+					"source": "BoBH",
+					"reqAttune": true,
+					"curse": true,
+					"modifier": [
+						{
+							"_category": "bonus",
+							"__text": "melee attacks +2",
+							"toString": [
+								null
+							]
+						},
+						{
+							"_category": "bonus",
+							"__text": "melee damage +2",
+							"toString": [
+								null
+							]
+						}
+					],
+					"entries": [
+						"You gain a +2 bonus to attack and damage rolls made with this magic weapon.",
+						"You can use an action to cause the blade to radiate eldritch energy, absorbing light and warping reality around it until an attack using this weapon hits a creature. That creature must succeed on a DC 14 Constitution saving throw or contract the Warp Touch disease. The sword can't be used this way again until the next dawn.",
+						{
+							"name": "Curse",
+							"type": "entries",
+							"entries": [
+								"Curse. If the sword isn't used to infect a creature with the Warp Touch within 1 minute of being drawn from its scabbard, its wielder must make a DC 15 Charisma saving throw. On a successful save, the wielder take  {@dice 3d6} psychic damage. On a failed save, the wielder is dominated by the sword, as if by the dominate monster spell, and the sword demands that it is used to spread the Warp Touch. The spell effect ends when the sword's demand is met."
+							]
+						}
+					]
 				},
 				{
 					"name": "Oathblade (Calhain)",
@@ -84501,7 +84536,14 @@
 							"When you reduce a hostile creature to 0 hit points with this weapon, the next attack that hits with this weapon inflict extra damage of the weapon's type equal to the number of Hit Dice of the slain creature."
 						]
 					},
-					"uniqueId": "5f5accfac6abbda8c082bed099db2361"
+					"uniqueId": "5f5accfac6abbda8c082bed099db2361",
+					"rarity": "Rare",
+					"source": "BoBH",
+					"reqAttune": true,
+					"entries": [
+						"Oathblades are mystic silver swords that appeared in past eras, floating above the waters of the moonwells, a gift from the goddess in times of need. Each Oathblade is unique, once gifted to defeat a particular foe. An oathblade is a silvered magic weapon.",
+						"When you reduce a hostile creature to 0 hit points with this weapon, the next attack that hits with this weapon inflict extra damage of the weapon's type equal to the number of Hit Dice of the slain creature."
+					]
 				},
 				{
 					"name": "Oathblade (Dyrn)",
@@ -84521,7 +84563,14 @@
 							"When you reduce a hostile creature to 0 hit points with this weapon, you turn invisible until the start of your next turn."
 						]
 					},
-					"uniqueId": "e91fb8d70f0ed81b5bb3e300fab008b8"
+					"uniqueId": "e91fb8d70f0ed81b5bb3e300fab008b8",
+					"rarity": "Rare",
+					"source": "BoBH",
+					"reqAttune": true,
+					"entries": [
+						"Oathblades are mystic silver swords that appeared in past eras, floating above the waters of the moonwells, a gift from the goddess in times of need. Each Oathblade is unique, once gifted to defeat a particular foe. An oathblade is a silvered magic weapon.",
+						"When you reduce a hostile creature to 0 hit points with this weapon, you turn invisible until the start of your next turn."
+					]
 				},
 				{
 					"name": "Oathblade (Eala)",
@@ -84541,7 +84590,14 @@
 							"While attuned to this weapon and holding the sword, whenever you take the Dodge action you gain a +2 bonus to AC. If a melee weapon attack hits you while dodging, you can use your reaction to spend one Hit Die to reduce the damage. Roll the die, add your Dexterity modifier, and reduce the damage by a number equal to the total (minimum of 1)."
 						]
 					},
-					"uniqueId": "2d7efd2ceef2507c2653e19bba9bca0a"
+					"uniqueId": "2d7efd2ceef2507c2653e19bba9bca0a",
+					"rarity": "Rare",
+					"source": "BoBH",
+					"reqAttune": true,
+					"entries": [
+						"Oathblades are mystic silver swords that appeared in past eras, floating above the waters of the moonwells, a gift from the goddess in times of need. Each Oathblade is unique, once gifted to defeat a particular foe. An oathblade is a silvered magic weapon.",
+						"While attuned to this weapon and holding the sword, whenever you take the Dodge action you gain a +2 bonus to AC. If a melee weapon attack hits you while dodging, you can use your reaction to spend one Hit Die to reduce the damage. Roll the die, add your Dexterity modifier, and reduce the damage by a number equal to the total (minimum of 1)."
+					]
 				},
 				{
 					"name": "Oathblade (Fragarach)",
@@ -84561,7 +84617,14 @@
 							"When attacking underwater with this weapon, you do not have disadvantage on the attack roll. Additionally, while attuned to it, you can breathe underwater."
 						]
 					},
-					"uniqueId": "16923ab443f4ded172c43298078358e9"
+					"uniqueId": "16923ab443f4ded172c43298078358e9",
+					"rarity": "Rare",
+					"source": "BoBH",
+					"reqAttune": true,
+					"entries": [
+						"Oathblades are mystic silver swords that appeared in past eras, floating above the waters of the moonwells, a gift from the goddess in times of need. Each Oathblade is unique, once gifted to defeat a particular foe. An oathblade is a silvered magic weapon.",
+						"When attacking underwater with this weapon, you do not have disadvantage on the attack roll. Additionally, while attuned to it, you can breathe underwater."
+					]
 				},
 				{
 					"name": "Oathblade (Moralt)",
@@ -84581,7 +84644,14 @@
 							"When you hit a conjured creature with this weapon, the creature takes an extra {@dice 2d6} damage of the weapon's type. Also, each time a creature takes the extra damage, the creature that conjured it takes the same amount of damage. For the purpose of this weapon, \"conjured creature\" refers to any creature that was called by a conjuration spell, such as the conjure elemental spell, or a per Day use feature, such as the Summon Demon from a drow."
 						]
 					},
-					"uniqueId": "2d6b782d435020f203cec8bf0d2bd9d9"
+					"uniqueId": "2d6b782d435020f203cec8bf0d2bd9d9",
+					"rarity": "Rare",
+					"source": "BoBH",
+					"reqAttune": true,
+					"entries": [
+						"Oathblades are mystic silver swords that appeared in past eras, floating above the waters of the moonwells, a gift from the goddess in times of need. Each Oathblade is unique, once gifted to defeat a particular foe. An oathblade is a silvered magic weapon.",
+						"When you hit a conjured creature with this weapon, the creature takes an extra {@dice 2d6} damage of the weapon's type. Also, each time a creature takes the extra damage, the creature that conjured it takes the same amount of damage. For the purpose of this weapon, \"conjured creature\" refers to any creature that was called by a conjuration spell, such as the conjure elemental spell, or a per Day use feature, such as the Summon Demon from a drow."
+					]
 				},
 				{
 					"name": "Oathblade (Muhrdem)",
@@ -84601,7 +84671,14 @@
 							"The weapon scores a critical hit on a roll of 19 or 20 and when you hit a creature with the weapon, the target can't regain hit points until the start of your next turn."
 						]
 					},
-					"uniqueId": "ff356fb0b29fad02bdeae845b68415fa"
+					"uniqueId": "ff356fb0b29fad02bdeae845b68415fa",
+					"rarity": "Very Rare",
+					"source": "BoBH",
+					"reqAttune": true,
+					"entries": [
+						"Oathblades are mystic silver swords that appeared in past eras, floating above the waters of the moonwells, a gift from the goddess in times of need. Each Oathblade is unique, once gifted to defeat a particular foe. An oathblade is a silvered magic weapon.",
+						"The weapon scores a critical hit on a roll of 19 or 20 and when you hit a creature with the weapon, the target can't regain hit points until the start of your next turn."
+					]
 				},
 				{
 					"name": "Deep Lead Ammunition",
@@ -84621,7 +84698,9 @@
 						"source": "BoBH",
 						"namePrefix": "Deep Lead "
 					},
-					"uniqueId": "af0a38372ea9baeace92fa94d2134e5c"
+					"uniqueId": "af0a38372ea9baeace92fa94d2134e5c",
+					"rarity": "Unknown",
+					"source": "BoBH"
 				},
 				{
 					"name": "Deep Lead Weapon",
@@ -84644,7 +84723,9 @@
 						"source": "BoBH",
 						"namePrefix": "Deep Lead "
 					},
-					"uniqueId": "d1e4a7b2965083137eed7f0381778205"
+					"uniqueId": "d1e4a7b2965083137eed7f0381778205",
+					"rarity": "Unknown",
+					"source": "BoBH"
 				}
 			],
 			"itemProperty": [],
@@ -85533,17 +85614,7 @@
 					"icon_spell": "magic-swirl"
 				}
 			},
-			"listItems": [
-				{
-					"page": "items.html",
-					"source": "ZACH",
-					"hash": "twisted%20cornett_zach",
-					"color": "#696969",
-					"icon": "mixed-swords",
-					"count": 1,
-					"entityType": "item"
-				}
-			]
+			"listItems": []
 		},
 		"filterBoxState_optionalfeatures.html": {
 			"box": {
